@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -31,9 +30,9 @@ body {
 }
 
 .nav-link.active {
-  background: #e63946;
+  background: #457B9D;
   color: white;
-  border-color: #e63946;
+  border-color: #457B9D;
 }
 
 
@@ -46,11 +45,11 @@ body {
 
     /* HERO */
     .hero {
-      background: #111;
+      background: #457B9D;
       color: #fdf0d5;
       padding: 3rem 1rem;
       text-align: center;
-      border-bottom: 6px solid #c1121f;
+      border-bottom: 6px solid #E24872;
     }
 
     .hero h1 {
@@ -74,7 +73,7 @@ body {
     }
 
     .filters button {
-      background: #c1121f;
+      background: #E24872;
       color: white;
       border: none;
       padding: 0.6rem 1.2rem;
@@ -83,22 +82,13 @@ body {
     }
 
     .filters button:hover {
-      background: #780000;
+      background: #E24872;
     }
-
-    /* MENU */
-    #menu {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 260px));
-  gap: 2rem;
-  padding: 2rem;
-  justify-content: center;
-}
 
 
     .card {
       background: white;
-      border: 3px solid #111;
+      border: 3px solid #457B9D;
       padding: 1rem;
       text-align: center;
     }
@@ -107,7 +97,7 @@ body {
       width: 100%;
       height: 160px;
       object-fit: cover;
-      border: 2px solid #111;
+      border: 2px solid #457B9D;
     }
 
     .price {
@@ -125,7 +115,7 @@ body {
       font-family: Georgia, serif;
       font-size: 2.2rem;
       margin-bottom: 2rem;
-      border-bottom: 4px solid #c1121f;
+      border-bottom: 4px solid #E24872;
       display: inline-block;
       padding-bottom: 0.5rem;
     }
@@ -138,7 +128,7 @@ body {
 
     .department-card {
       background: white;
-      border: 3px solid #111;
+      border: 3px solid #457B9D;
       padding: 1rem;
       text-align: center;
     }
@@ -147,7 +137,7 @@ body {
       width: 100%;
       height: 140px;
       object-fit: cover;
-      border: 2px solid #111;
+      border: 2px solid #457B9D;
     }
 
     .status {
@@ -164,11 +154,11 @@ body {
 
 /* HERO */
 .hero {
-  background: #111;
+  background: #E24872;
   color: #fdf0d5;
   padding: 3rem 1rem;
   text-align: center;
-  border-bottom: 6px solid #c1121f;
+  border-bottom: 6px solid #A8DADC;
 }
 
 .hero h1 {
@@ -192,7 +182,7 @@ body {
 }
 
 .filters button {
-  background: #c1121f;
+  background: #457B9D;
   color: white;
   border: none;
   padding: 0.6rem 1.2rem;
@@ -201,21 +191,22 @@ body {
 }
 
 .filters button:hover {
-  background: #780000;
+  background: #E24872;
 }
 
 /* MENU GRID */
 #menu {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 260px));
   gap: 2rem;
   padding: 2rem;
+  justify-content: center;
 }
 
 /* CARD */
 .card {
   background: white;
-  border: 3px solid #111;
+  border: 3px solid #457B9D;
   padding: 1rem;
   text-align: center;
 }

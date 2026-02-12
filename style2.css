@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f1faee;
+  background: #fdf0d5;
   color: #111;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@ body {
   background: #f1faee;
   color: #111;
   padding: 0.6rem 1.2rem;
-  border: 2px solid #457b9d;
+  border: 2px solid #457B9D;
   font-weight: bold;
   transition: all 0.2s ease;
   border-radius: 12px;
@@ -38,17 +38,17 @@ body {
 }
 
 .nav-link.active {
-  background: #e63946;
+  background: #457B9D;
   color: white;
-  border-color: #e63946;
+  border-color: #457B9D;
 }
 
 /* ÅBNINGSTIDER */
 .opening-hours {
   text-align: center;
   padding: 2rem;
-  background: #f1faee;
-  border-top: 3px solid #457b9d;
+  background: #fdf0d5;
+  border-top: 3px solid #E24872;
   border-radius: 12px;
 }
 
@@ -58,11 +58,23 @@ body {
 
 /* HERO SEKTION */
 .hero {
-  background: #457b9d;
-  color: #f1faee;
+  background: #E24872;
+  color: #fdf0d5;
   padding: 3rem 1rem;
   text-align: center;
-  border-bottom: 6px solid #a8dadc;
+  border-bottom: 6px solid #A8DADC;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 /* KONTAKT SEKTION */
@@ -72,15 +84,15 @@ body {
   padding: 2rem;
   max-width: 1100px;
   margin: auto;
-  flex-wrap: wrap; /* gør det responsivt */
+  flex-wrap: wrap;
 }
 
 /* Formular */
 .contact-form {
   flex: 1;
   min-width: 280px;
-  background: #f1faee;
-  border: 3px solid #457b9d;
+  background: #fdf0d5;
+  border: 3px solid #457B9D;
   padding: 2.5rem;
   border-radius: 15px;
 }
@@ -90,7 +102,7 @@ body {
   width: 100%;
   padding: 0.8rem;
   margin-top: 0.4rem;
-  border: 2px solid #457b9d;
+  border: 2px solid #457B9D;
   background: white;
   border-radius: 8px;
 }
@@ -98,7 +110,7 @@ body {
 /* Send-knap */
 .contact-form button {
   margin-top: 1.2rem;
-  background: #e63946;
+  background: #457B9D;
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -108,17 +120,17 @@ body {
 }
 
 .contact-form button:hover {
-  background: #c1121f;
+  background: #E24872;
 }
 
 /* Kontaktinfo boks */
 .contact-info {
   flex: 1;
   min-width: 280px;
-  background: #a8dadc;
+  background: #A8DADC;
   color: #111;
   padding: 2.5rem;
-  border: 3px solid #457b9d;
+  border: 3px solid #457B9D;
   border-radius: 15px;
 }
 
@@ -128,8 +140,8 @@ body {
 
 /* FOOTER */
 .footer {
-  background: #457b9d;
-  color: #f1faee;
+  background: #457B9D;
+  color: #fdf0d5;
   text-align: center;
   padding: 1.5rem 0;
 }
